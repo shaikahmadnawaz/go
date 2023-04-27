@@ -6,5 +6,8 @@ func main(){
 
 	name:= "Nawaz"
 	fmt.Println(name)
-	// fmt.Println("Hello world!")
+
+	// variable declaration
+	var age int = 20
+	fmt.Println(age)
 }

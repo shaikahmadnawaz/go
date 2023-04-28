@@ -21,4 +21,8 @@ func main(){
 		fmt.Println(index, "->", element)
 	}
 	fmt.Println(fruits)
+
+	// maps
+	code := map[string]string{"Java": ".java", "JavaScript": ".js"}
+	fmt.Println(code)
 }

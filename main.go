@@ -12,6 +12,10 @@ func main(){
 	fmt.Println(age)
 
 	// taking input
-	var class string
-	fmt.Scanf("%s",&class)
+	// var class string
+	// fmt.Scanf("%s",&class)
+
+	// arrays
+	var fruits [2]int = [2]int{1, 2}
+	fmt.Println(fruits)
 }

@@ -17,5 +17,8 @@ func main(){
 
 	// arrays
 	var fruits [2]int = [2]int{1, 2}
+	for index, element := range fruits {
+		fmt.Println(index, "->", element)
+	}
 	fmt.Println(fruits)
 }
